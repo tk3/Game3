@@ -6,8 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="SDL2.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <Compile Include="Program.fs" />
   </ItemGroup>
+
+  <ItemGroup />
 
   <ItemGroup>
     <ProjectReference Include="..\MySDL2\MySDL2.fsproj" />
